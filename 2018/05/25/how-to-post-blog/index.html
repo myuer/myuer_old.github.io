@@ -16,8 +16,12 @@
   
   
   
-    <meta name="description" content="**
- 1.在github中新建一个仓库 以用户名.github.io 命名 2.修改_config.yml 81-83             type: git              repository: git@github.com:myuer/myuer.github.io.git              brach: master 3.在hexo文件夹中，右键打开git b...">
+    <meta name="description" content="1.在github中新建一个仓库 以用户名.github.io 命名
+ 2.修改_config.yml 81-83
+             type: git
+              repository: git@github.com:myuer/myuer.github.io.git
+              brach: master
+ 3.在hexo文件夹中，右键打开git ...">
   
   <title>how to post blog [ myuer! ]</title>
   
@@ -129,10 +133,29 @@
       
     </p>
     
-    <p>**</p>
-<p><pre><br> 1.在github中新建一个仓库 以用户名.github.io 命名<br> 2.修改_config.yml 81-83<br>             type: git<br>              repository: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:myuer/myuer.github.io.git<br>              brach: master<br> 3.在hexo文件夹中，右键打开git bash，输入hexo g<br>         npm install hexo-deployer-git –save<br>   3.1 403 报错说明将repository：将http改成 ssh的地址。<br>         remote: Permission to myuer/myuer.github.io.git denied to NicolasGui.<br>         fatal: unable to access ‘<a href="https://github.com/myuer/myuer.github.io.git/&#39;" target="_blank" rel="noopener">https://github.com/myuer/myuer.github.io.git/&#39;</a>: The requested URL returned error: 403    </pre></p>
-<p>   3.2 报错：<br>         $ hexo d<br>        ERROR Deployer not found: git<br>        之后输入  npm install hexo-deployer-git –save</p>
-<p>   3.3 之后hexo g<br>        hexo d<br>        出现INFO  Deploy done: git<br>        说明blog被曝到 网上了。<br><br>**</p>
+    <pre>
+
+ 1.在github中新建一个仓库 以用户名.github.io 命名
+ 2.修改_config.yml 81-83
+             type: git
+              repository: git@github.com:myuer/myuer.github.io.git
+              brach: master
+ 3.在hexo文件夹中，右键打开git bash，输入hexo g
+         npm install hexo-deployer-git --save
+   3.1 403 报错说明将repository：将http改成 ssh的地址。
+         remote: Permission to myuer/myuer.github.io.git denied to NicolasGui.
+         fatal: unable to access 'https://github.com/myuer/myuer.github.io.git/': The requested URL returned error: 403    
+
+   3.2 报错：
+         $ hexo d
+        ERROR Deployer not found: git
+        之后输入  npm install hexo-deployer-git --save
+
+   3.3 之后hexo g
+        hexo d
+        出现INFO  Deploy done: git
+        说明blog被曝到 网上了。
+</pre>
 
   </article>
   <div class="random-toc-area">
