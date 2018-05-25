@@ -16,10 +16,10 @@
   
   
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Qu...">
+    <meta name="description" content="**
+ 1.在github中新建一个仓库 以用户名.github.io 命名 2.修改_config.yml 81-83             type: git              repository: git@github.com:myuer/myuer.github.io.git              brach: master 3.在hexo文件夹中，右键打开git b...">
   
-  <title>Hello World [ myuer! ]</title>
+  <title>how to post blog [ myuer! ]</title>
   
   
     <link rel="shortcut icon" href="/favicon.ico">
@@ -38,15 +38,15 @@ Qu...">
 <body>
 <div class="side-navigate hide-area">
   
-    <div class="item prev">
-      <a href="/2018/05/24/推送新的文章/">
+  
+    <div class="item next">
+      <a href="/2018/05/25/markdown-基本语法/">
         <div class="item-icon"></div>
       </a>
       <div class="item-title">
-        my new post
+        markdown 基本语法
       </div>
     </div>
-  
   
 </div>
 <div id="outer-container" class="hide-area">
@@ -119,25 +119,20 @@ Qu...">
       
       
   <article id="post">
-    <h1>Hello World</h1>
+    <h1>how to post blog</h1>
     <p class="page-title-sub">
-      <span id = "post-title-date">撰写于 2018-05-24</span>
+      <span id = "post-title-date">撰写于 2018-05-25</span>
       
-        <span id = "post-title-updated">修改于 2018-05-24</span>
+        <span id = "post-title-updated">修改于 2018-05-25</span>
       
       
       
     </p>
     
-    <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+    <p>**</p>
+<p><pre><br> 1.在github中新建一个仓库 以用户名.github.io 命名<br> 2.修改_config.yml 81-83<br>             type: git<br>              repository: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:myuer/myuer.github.io.git<br>              brach: master<br> 3.在hexo文件夹中，右键打开git bash，输入hexo g<br>         npm install hexo-deployer-git –save<br>   3.1 403 报错说明将repository：将http改成 ssh的地址。<br>         remote: Permission to myuer/myuer.github.io.git denied to NicolasGui.<br>         fatal: unable to access ‘<a href="https://github.com/myuer/myuer.github.io.git/&#39;" target="_blank" rel="noopener">https://github.com/myuer/myuer.github.io.git/&#39;</a>: The requested URL returned error: 403    </pre></p>
+<p>   3.2 报错：<br>         $ hexo d<br>        ERROR Deployer not found: git<br>        之后输入  npm install hexo-deployer-git –save</p>
+<p>   3.3 之后hexo g<br>        hexo d<br>        出现INFO  Deploy done: git<br>        说明blog被曝到 网上了。<br><br>**</p>
 
   </article>
   <div class="random-toc-area">
@@ -145,18 +140,18 @@ Qu...">
   <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">隐藏目录</button>
   <div class="random-toc">
     <h2>目录</h2>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+    
   </div>
 </div>
 
   
 <nav id="pagination">
   
-    <a href="/2018/05/24/推送新的文章/" class="prev">&larr; 上一篇 my new post</a>
-  
 
   
 
+  
+    <a href="/2018/05/25/markdown-基本语法/" class="next">下一篇 markdown 基本语法 &rarr;</a>
   
 </nav>
 
