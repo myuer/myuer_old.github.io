@@ -140,8 +140,8 @@ this is code area (代码区)
 <p>没运行成功的采取ctrl+c<br>清除缓存        hexo clean<br>接着hexo g/hexo s</p>
 <p><em>HELLO</em><br><strong>WELCOME</strong><br><strong><em>!!!!!!!!!</em></strong></p>
 <p><strong><em><font color="blue">SKY</font></em></strong></p>
-<p><em>在_config.yml中添加<br>  repository: <a href="http://github.com/myuer/myuer.github.io.git" target="_blank" rel="noopener">http://github.com/myuer/myuer.github.io.git</a><br>  brach: master<br> 在hexo文件夹中，右键打开git bash，输入hexo g<br> npm install hexo -deployer –save
-</em></p>
+<p><strong><br>在github中新建一个仓库 以用户名.github.io 命名<br> 修改_config.yml 81-83<br>             type: git<br>              repository: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:myuer/myuer.github.io.git<br>              brach: master<br> 在hexo文件夹中，右键打开git bash，输入hexo g<br>         npm install hexo-deployer-git –save<br>    403 报错说明将repository：将http改成 ssh的地址。<br>         remote: Permission to myuer/myuer.github.io.git denied to NicolasGui.<br>         fatal: unable to access ‘<a href="https://github.com/myuer/myuer.github.io.git/&#39;" target="_blank" rel="noopener">https://github.com/myuer/myuer.github.io.git/&#39;</a>: The requested URL returned error: 403<br>     报错：<br>         $ hexo d<br>        ERROR Deployer not found: git<br>        之后输入  npm install hexo-deployer-git –save<br>    之后hexo g<br>        hexo d<br>        出现INFO  Deploy done: git<br>        说明blog被曝到 网上了。
+</strong></p>
 
   </article>
   <div class="random-toc-area">
