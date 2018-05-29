@@ -16,14 +16,9 @@
   
   
   
-    <meta name="description" content="1.在github中新建一个仓库 以用户名.github.io 命名
- 2.修改_config.yml 81-83
-             type: git
-              repository: git@github.com:myuer/myuer.github.io.git
-              brach: master
- 3.在hexo文件夹中，右键打开git ...">
+    <meta name="description" content="new user">
   
-  <title>how to post blog [ myuer! ]</title>
+  <title> [ myuer! ]</title>
   
   
     <link rel="shortcut icon" href="/favicon.ico">
@@ -39,179 +34,92 @@
   
 </head>
 
-<body>
-<div class="side-navigate hide-area">
+<div class="random-center hide-area">
+  <div id="random-index">
+    <div class="center-field">
+      <img class="avatar" src="http://7te9fe.com1.z0.glb.clouddn.com/default_avatar.jpg" width=120 height=120 onClick="openUserCard()">
+    </div>
+    <div class="center-field">
+      <div class="title" onClick="openUserCard()">myuer!</div>
+      <div class="sub-title" onClick="openUserCard()"></div>
+    </div>
+    <hr >
+    <div class="center-field">
+      <ul class="index-nav-link">
+        
+        
+          
+            <li><a href="/index.html">Home</a></li>
+          
+        
+          
+            <li><a href="/archives">Archives</a></li>
+          
+        
+          
+            <li><a href="/tags">Tags</a></li>
+          
+        
+          
+            <li><a href="/categories">Categories</a></li>
+          
+        
+          
+            <li><a href="/about">About</a></li>
+          
+        
+          
+            <li><a href="https://github.com/stiekel/hexo-theme-random">Github</a></li>
+          
+        
+      </ul>
+      <ul class="social-icon">
   
-    <div class="item prev">
-      <a href="/2018/05/29/PS/">
-        <div class="item-icon"></div>
+  
+    <li>
+      <a href="https://github.com/stiekel/hexo-theme-random">
+        
+          <i class="icon iconfont github">&#xe606;</i>
+        
       </a>
-      <div class="item-title">
-        PS
-      </div>
-    </div>
+    </li>
   
-  
-    <div class="item next">
-      <a href="/2018/05/25/markdown-基本语法/">
-        <div class="item-icon"></div>
+    <li>
+      <a href="https://coding.net/u/Stiekel">
+        
+          <i class="icon iconfont coding">&#xe607;</i>
+        
       </a>
-      <div class="item-title">
-        markdown 基本语法
-      </div>
-    </div>
+    </li>
   
-</div>
-<div id="outer-container" class="hide-area">
-<div id="container">
-  <div id="menu-outer" class="slide-down">
-    <div id="menu-inner">
-      <div id="brand">
+    <li>
+      <a href="https://twitter.com/SidCN">
         
-        <a onClick="openUserCard()">
-          <img id="avatar" src="http://7te9fe.com1.z0.glb.clouddn.com/default_avatar.jpg"/>
-          <div id="homelink">myuer!</div>
-        </a>
-      </div>
-      <div id="menu-list">
-        <ul>
+          <i class="icon iconfont twitter">&#xe600;</i>
         
-        
-          
-            <li>
-          
-            <a href="/index.html">Home</a>
-            
-          </li>
-        
-          
-            <li>
-          
-            <a href="/archives">Archives</a>
-            
-          </li>
-        
-          
-            <li>
-          
-            <a href="/tags">Tags</a>
-            
-          </li>
-        
-          
-            <li>
-          
-            <a href="/categories">Categories</a>
-            
-          </li>
-        
-          
-            <li>
-          
-            <a href="/about">About</a>
-            
-          </li>
-        
-          
-            <li>
-          
-            <a href="https://github.com/stiekel/hexo-theme-random">Github</a>
-            
-          </li>
-        
-        </ul>
-      </div>
-      <div id="show-menu">
-        <button>Menu</button>
-      </div>
-    </div>
-  </div>
-
-  <div id="content-outer">
-    <div id="content-inner">
-      
-      
-  <article id="post">
-    <h1>how to post blog</h1>
-    <p class="page-title-sub">
-      <span id = "post-title-date">Created at 2018-05-25</span>
-      
-        <span id = "post-title-updated">Updated at 2018-05-25</span>
-      
-      
-      
-    </p>
-    
-    <pre>
-
- 1.在github中新建一个仓库 以用户名.github.io 命名
- 2.修改_config.yml 81-83
-             type: git
-              repository: git@github.com:myuer/myuer.github.io.git
-              brach: master
- 3.在hexo文件夹中，右键打开git bash，输入hexo g
-         npm install hexo-deployer-git --save
-   3.1 403 报错说明将repository：将http改成 ssh的地址。
-         remote: Permission to myuer/myuer.github.io.git denied to NicolasGui.
-         fatal: unable to access 'https://github.com/myuer/myuer.github.io.git/': The requested URL returned error: 403    
-
-   3.2 报错：
-         $ hexo d
-        ERROR Deployer not found: git
-        之后输入  npm install hexo-deployer-git --save
-
-   3.3 之后hexo g
-        hexo d
-        出现INFO  Deploy done: git
-        说明blog被曝到 网上了。
-</pre>
-
-  </article>
-  <div class="random-toc-area">
-  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">Show TOC</button>
-  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">Hide TOC</button>
-  <div class="random-toc">
-    <h2>Table of Content</h2>
-    
-  </div>
-</div>
-
+      </a>
+    </li>
   
-<nav id="pagination">
+    <li>
+      <a href="http://weibo.com/sidcn">
+        
+          <i class="icon iconfont weibo">&#xe602;</i>
+        
+      </a>
+    </li>
   
-    <a href="/2018/05/29/PS/" class="prev">&larr; Prev post PS</a>
+    <li>
+      <a href="http://www.douban.com/people/Stiekel/">
+        
+          <i class="icon iconfont douban">&#xe60f;</i>
+        
+      </a>
+    </li>
   
-
-  
-
-  
-    <a href="/2018/05/25/markdown-基本语法/" class="next">Next post markdown 基本语法 &rarr;</a>
-  
-</nav>
-
-  <!-- JiaThis Button BEGIN -->
-
-<!-- JiaThis Button END -->
-
-
-      
-      
-    </div>
-  </div>
-
-  <div id="bottom-outer">
-    <div id="bottom-inner">
-      Site by myuer using
-      <a href="http://hexo.io">Hexo</a> & <a href="https://github.com/stiekel/hexo-theme-random">Random</a>
-      <br>
-      
+</ul>
     </div>
   </div>
 </div>
-
-</div>
-
-
 <div id="user-card">
   <div class="center-field">
     <img class="avatar" src="http://7te9fe.com1.z0.glb.clouddn.com/default_avatar.jpg">
@@ -326,8 +234,6 @@ var unsplashConfig = {"gravity":"north"};
 var turnoffBackgroundImage = false;
 
 
-
-  turnoffBackgroundImage = true;
 
 
 var backgroundColor = "34495E";
